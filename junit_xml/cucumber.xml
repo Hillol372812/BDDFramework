@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="109.404158">
+<testcase classname="spicejet end to end testing" name="Login HomePage" time="109.404158">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at Stepdefination.Spicejet.user_navigate_to_homepage(Spicejet.java:33)&#13;&#10;&#9;at ✽.When User navigate to homepage(C:/BDDWorkspace/BDDFramework/src/main/java/Features/Spicejet.feature:7)&#13;&#10;"><![CDATA[Given user open the browser.................................................passed
+When User navigate to homepage..............................................failed
+Then title of the page should match.........................................skipped
+When Enter data in Departure City...........................................skipped
+And Enter data in Arrival city..............................................skipped
+And Click on search button..................................................skipped
+Then User navigate to Search Result Page....................................skipped
+And Enter traveller details.................................................skipped
+And Select Options in AddsOn Page...........................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at Stepdefination.Spicejet.user_navigate_to_homepage(Spicejet.java:33)
+	at ✽.When User navigate to homepage(C:/BDDWorkspace/BDDFramework/src/main/java/Features/Spicejet.feature:7)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,130 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login HomePage",
+        "description": "",
+        "id": "spicejet-end-to-end-testing;login-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 109386177256,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open the browser",
+            "match": {
+              "location": "Spicejet.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17980953,
+              "error_message": "java.lang.NullPointerException\r\n\tat Stepdefination.Spicejet.user_navigate_to_homepage(Spicejet.java:33)\r\n\tat ✽.When User navigate to homepage(C:/BDDWorkspace/BDDFramework/src/main/java/Features/Spicejet.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "Spicejet.user_navigate_to_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "title of the page should match",
+            "match": {
+              "location": "Spicejet.title_of_the_page_should_match()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Enter data in Departure City",
+            "match": {
+              "location": "Spicejet.enter_data_in_Departure_City()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Enter data in Arrival city",
+            "match": {
+              "location": "Spicejet.enter_data_in_Arrival_city()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Click on search button",
+            "match": {
+              "location": "Spicejet.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User navigate to Search Result Page",
+            "match": {
+              "location": "Spicejet.user_navigate_to_Search_Result_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Enter traveller details",
+            "match": {
+              "location": "Spicejet.enter_traveller_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Select Options in AddsOn Page",
+            "match": {
+              "location": "Spicejet.select_Options_in_AddsOn_Page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "spicejet end to end testing",
+    "description": "",
+    "id": "spicejet-end-to-end-testing",
+    "keyword": "Feature",
+    "uri": "C:/BDDWorkspace/BDDFramework/src/main/java/Features/Spicejet.feature"
+  }
+]
